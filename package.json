@@ -1,0 +1,53 @@
+{
+  "name": "react-apollo-dynamic-query",
+  "version": "0.0.0",
+  "description": "Use react-apollo with a dynamically generated query.",
+  "main": "lib/index.js",
+  "repository": "https://github.com/seangransee/react-apollo-dynamic-query",
+  "author": "Sean Gransee <sean.gransee@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "babel src --out-dir lib",
+    "lint": "eslint src test",
+    "test": "jest",
+    "prepublish": "npm run build",
+    "release": "np"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-env": "^7.1.0",
+    "apollo-client": "^2.4.2",
+    "babel-core": "^7.0.0-0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^2.7.0",
+    "graphql": "^0.13.0",
+    "graphql-tag": "^2.9.2",
+    "jest": "^23.6.0",
+    "np": "^3.0.4",
+    "prettier": "^1.14.3",
+    "react-dom": "^16.5.2",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-apollo": "^2.2.2"
+  },
+  "files": [
+    "lib/index.js"
+  ],
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
+}

@@ -103,7 +103,7 @@ const ListEntities = props => {
   )
 }
 
-// We can now pass in the same of the field as a prop,
+// We can now pass in the name of the field as a prop,
 // and generate the query using string interpolation.
 const query = props => gql`
   query Foo {

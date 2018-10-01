@@ -1,6 +1,6 @@
 {
   "name": "react-apollo-dynamic-query",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Use react-apollo with a dynamically generated query.",
   "main": "lib/index.js",
   "repository": "https://github.com/seangransee/react-apollo-dynamic-query",

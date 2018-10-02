@@ -152,7 +152,7 @@ Then, we can use our component like this:
 <ListEntitiesWithData field="animals" />
 ```
 
-While not depicted in this example, we can optionally pass in a `config` object as the second argument, as we normally would with the standard [`graphql()`](<(https://www.apollographql.com/docs/react/api/react-apollo.html#graphql)>) function. See the [basic usage example](#With-graphql-apollo-dynamic-query) for details.
+While not depicted in this example, we can optionally pass in a `config` object as the second argument, as we normally would with the standard [`graphql()`](<(https://www.apollographql.com/docs/react/api/react-apollo.html#graphql)>) function. See the [basic usage example](#with-graphql-apollo-dynamic-query) for details.
 
 ## Do I need a whole package for this?
 

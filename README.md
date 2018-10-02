@@ -157,3 +157,7 @@ While not depicted in this example, we can optionally pass in a `config` object 
 ## Do I need a whole package for this?
 
 Absolutely not. Feel free to [copy the source code](src/index.js) into your application to avoid having yet another dependency.
+
+## License
+
+MIT
